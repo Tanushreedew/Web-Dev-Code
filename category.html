@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chic babe</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">"
+<link rel="stylesheet" href="css/style.css">
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Alkatra', cursive;
+    }
+
+    .container {
+        display: flex;
+        height: 690px;
+        width: 100%;
+    }
+
+    .category {
+        margin: 0px;
+        padding: 10px;
+        width: 393px;
+        border: 2px solid rgb(233, 219, 213) ;
+    }
+
+    #wear1 {
+        background: url('img/westernwearfinal.jpg');
+        background-size: 100% 100%;
+    }
+
+    #wear2 {
+        background: url('img/ethnic\ final.jpg');
+        background-size: 100% 100%;
+    }
+
+    #wear3 {
+        background-image: url('img/colorf.jpg');
+        background-size: 100% 100%;
+    }
+
+    #wear4 {
+        background-image: url('img/cloth.jpg');
+        background-size: 100% 100%;
+    }
+    ul{
+        list-style: none;
+        background: rgb(233, 219, 213);
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 85px;
+        color: rgb(151, 101, 101);
+        text-decoration: none;
+        text-align: center;
+        font-size: 25px;
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+  ul li ul.dropdown{
+    width: 100%;
+    background: rgb(233, 219, 213);
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+  ul li a:hover{
+    background:beige;
+  }
+ul li:hover ul.dropdown{
+    display: block;
+}
+.menu{
+    border-top:2px solid rgb(151, 101, 101);
+    border-bottom: 2px solid rgb(151, 101, 101);
+}
+</style>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Western wear>></a>
+                <ul class="dropdown">
+                    <li><a href="#">Dresses & Jumpsuits</a></li>
+                    <li><a href="#">Tops,Tshirts & shirts</a></li>
+                    <li><a href="#">Jeans & Jeggings</a></li>
+                    <li><a href="#">Skirts</a></li>
+                    <li><a href="#">Playsuits</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Co-ords</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Ethnic wear>></a>
+                <ul class="dropdown">
+                    <li><a href="#">Kurta set</a></li>
+                    <li><a href="#">Saree & Blouses</a></li>
+                    <li><a href="#">Kurti</a></li>
+                    <li><a href="#">Ethnic Dresses</a></li>
+                    <li><a href="#">Tunics</a></li>
+                    <li><a href="#">Palazzos</a></li>
+                    <li><a href="#">Kurtas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Colour>></a>
+                <ul class="dropdown">
+                    <li></li><a href="#">Violet</a>
+            </li>
+            <li></li><a href="#">Indigo</a></li>
+            <li></li><a href="#">Blue</a></li>
+            <li></li><a href="#">Green</a></li>
+            <li></li><a href="#">Yellow</a></li>
+            <li></li><a href="#">Orange</a></li>
+            <li></li><a href="#">Red</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Cloth material>></a>
+            <ul class="dropdown">
+                <li><a href="#">Silk</a></li>
+                <li><a href="#">Linen</a></li>
+                <li><a href="#">woolen</a></li>
+                <li><a href="#">crepe</a></li>
+                <li><a href="#">Polyester</a></li>
+                <li><a href="#">Denim</a></li>
+                <li><a href="#">Organza</a></li>
+            </ul>
+        </li>
+        <li><a href="web.html">Home</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="category" id="wear1"></div>
+        <div class="category" id="wear2"> </div>
+        <div class="category" id="wear3"></div>
+        <div class="category" id="wear4"></div>
+      </div>
+</body>
+
+</html>
